@@ -18,4 +18,7 @@ export class todoStore {
       if (item.id === id) item.text = text;
     });
   }
+  deleteAll() {
+    this.todos = [];
+  }
 }
